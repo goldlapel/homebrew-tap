@@ -7,20 +7,20 @@ class Goldlapel < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc4/goldlapel-0.1.0-rc4-darwin-aarch64.tar.gz"
-      sha256 "f2b53cfcf8bdf6198cb442336a98cfd098675188c93c3e4763f78873deb27898"
+      sha256 "2d6156a33a119801138cdb4a37407e44dedd08dad4ecfc46414efb31f3797e87"
     elsif Hardware::CPU.intel?
       url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc4/goldlapel-0.1.0-rc4-darwin-x86_64.tar.gz"
-      sha256 "994447e3dca15b12ca9333446fab91a66ecd849e65e162f0161b14bdcfbdf84d"
+      sha256 "51df95c6a73edd2c2fb7f275ce8f660e423ed046f7f08cc51031d0ba0db0d674"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc4/goldlapel-0.1.0-rc4-linux-aarch64.tar.gz"
-      sha256 "3d3a3f9ecc8321fdd19325d7088ec29302869dd5db83acb7bc43f0c7534365fa"
+      sha256 "d83bd653c16baa8a5810f6f722b217248a0821a740ac5a9644b5a459bffa29f5"
     elsif Hardware::CPU.intel?
       url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc4/goldlapel-0.1.0-rc4-linux-x86_64.tar.gz"
-      sha256 "94b4d728fbd26c9ccba439f5cfa804a6c28ef66e816edba5eed9e215def530b1"
+      sha256 "d3ba994385892e3fbce4773bcd45b14578d5a0fc555efb7fb1f8229cd759b2e2"
     end
   end
 
