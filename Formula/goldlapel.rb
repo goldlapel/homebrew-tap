@@ -1,26 +1,26 @@
 class Goldlapel < Formula
   desc "Self-optimizing Postgres proxy"
   homepage "https://goldlapel.com"
-  version "0.1.0-rc19"
+  version "0.1.0-rc20"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc19/goldlapel-0.1.0-rc19-darwin-aarch64.tar.gz"
-      sha256 "785ed42abb499653da8ab94a2a2fd4227a60a3edc6aca98ee8337d1d5af8f768"
+      url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc20/goldlapel-0.1.0-rc20-darwin-aarch64.tar.gz"
+      sha256 "38fb9dff165121360750520078c4b325a7d56414357af0c1f71846a0c380a465"
     elsif Hardware::CPU.intel?
-      url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc19/goldlapel-0.1.0-rc19-darwin-x86_64.tar.gz"
-      sha256 "40683d4bae5d100fb813a738eeb5cc0b1a4bb15cc9147faf59fb27c76b82d018"
+      url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc20/goldlapel-0.1.0-rc20-darwin-x86_64.tar.gz"
+      sha256 "cd3f2ccce1726b7c1d4d19eac31610cc9bf1977b62ab0246e3a8e2bbdefbe65d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc19/goldlapel-0.1.0-rc19-linux-aarch64.tar.gz"
-      sha256 "214d97e4c7e2609ed9cd281d937e9416f195cd43e673fb8b2e895d2df7b359d0"
+      url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc20/goldlapel-0.1.0-rc20-linux-aarch64.tar.gz"
+      sha256 "6681b62cfdaf5ed86bfba9f732fa304371fbd1c65046eefcc9184acd35cc264a"
     elsif Hardware::CPU.intel?
-      url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc19/goldlapel-0.1.0-rc19-linux-x86_64.tar.gz"
-      sha256 "4e130fa1545760071003e60bd0608ce27cfbadde5ed4d972904ea5eb5eb96602"
+      url "https://github.com/goldlapel/releases/releases/download/v0.1.0-rc20/goldlapel-0.1.0-rc20-linux-x86_64.tar.gz"
+      sha256 "2211649ac970c18ff0390495b66d2a580b2c78d405fb6af96bac28ddb6a51c61"
     end
   end
 
